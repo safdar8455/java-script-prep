@@ -1,4 +1,4 @@
-let n = 4;
+let n = 30;
 // upper
 for (let i = 0; i < n; i++) {
     let row = "";
