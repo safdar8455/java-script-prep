@@ -16,3 +16,15 @@ for (let i = 0; i < n; i++) {
     }
     console.log(row); // Print the row after constructing it
 }
+
+// lower
+
+for (let i = 0; i < n-1; i++) {
+    let row = "";
+    for (let j = 0; j < i+1; j++) {
+       row+=" "; 
+    }
+    row+="*"; 
+    console.log(row);
+    
+}
